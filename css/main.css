@@ -94,14 +94,36 @@ figcaption h1 {
 }
 
 main {
-  background-color: #1a4112;
+  background-color: #4c853a;
   color: #fff;
+}
+
+.intro {
+  margin: 0;
+}
+
+strong {
+  color: #fdbb00;
+}
+
+.intro h3 {
+  margin: 0;
+  text-align: center;
+  padding: .2em;
+  background-color: #333;
+  color: #fff;
+}
+
+.intro p {
+  padding: .5em;
+  text-align: center;
 }
 
 .menu h2 {
   text-align: center;
   margin-bottom: .5em;
   margin-top: 0;
-  background-color: rgba(47, 113, 34, .3);
+  background-color: #333;
   padding: .3em;
+  color: #fff;
 }
