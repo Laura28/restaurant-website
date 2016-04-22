@@ -124,11 +124,12 @@ main {
 .intro p {
   padding: .8em;
   text-align: center;
-  padding-bottom: 8em;
 }
 
 .sandwich {
-  width: 100%;
+  width: 75%;
+  transform: translateX(40px);
+  padding-bottom: 1em;
 }
 
 .menu p {
@@ -158,8 +159,7 @@ dd {
 
 .about img {
   width: 25%;
-  float: left;
-  transform: translate(120px, -80px);
+  transform: translate(120px, -40px);
 }
 
 .about h2 {
@@ -183,19 +183,34 @@ dd {
 .about-two {
   padding-left: .8em;
   padding-right: .8em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 .news h2 {
   text-align: center;
   margin-bottom: .5em;
   margin-top: 0;
+  margin-left: o;
   background-color: #333;
   padding: .3em;
   color: #fff;
   -webkit-box-shadow: 0px 0px 8px 0px #000000;
   -moz-box-shadow: 0px 0px 8px 0px #000000;
   box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.news p {
+  padding-left: .8em;
+  padding-right: .8em;
+  text-align: center;
+}
+
+.news img {
+  width: 100%;
+}
+
+.contact {
+  overflow: hidden;
 }
 
 .contact h2 {
@@ -208,6 +223,22 @@ dd {
   -webkit-box-shadow: 0px 0px 8px 0px #000000;
   -moz-box-shadow: 0px 0px 8px 0px #000000;
   box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.contact img {
+  width: 50%;
+  float: left;
+  transform: translateX(75px);
+  padding-bottom: .5em;
+
+}
+
+.contact .address,
+.contact .phone {
+  padding-left: .8em;
+  padding-right: .8em;
+  padding-bottom: .5em;
+  text-align: center;
 }
 
 footer {
