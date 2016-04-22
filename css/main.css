@@ -266,3 +266,59 @@ footer {
   transform: translateX(125px);
   transform: translateY(-10px);
 }
+
+iframe {
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo-nav {
+    width: 12%;
+  }
+
+  nav a {
+    width: 20%;
+    padding: .8em;
+    font-size: 1.4;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  figcaption {
+    font-size: 1rem;
+    transform: translateY(-185px);
+  }
+
+  .menu .sandwiches {
+    transform: translate(35px, -12px);
+  }
+
+  .menu .salads {
+    transform: translateX(-45px);
+  }
+
+  .sandwich {
+    transform: translateX(50px);
+  }
+
+  .about-one {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+  }
+
+  .about-two {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+  }
+
+  .about img {
+    transform: translate(150px, -40px);
+  }
+
+  .contact img {
+    transform: translateX(80px);
+    width: 60%;
+  }
+
+}
