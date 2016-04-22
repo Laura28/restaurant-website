@@ -127,14 +127,8 @@ main {
   padding-bottom: 8em;
 }
 
-.menu {
-  overflow: hidden;
-}
-
 .sandwich {
-  width: 45%;
-  float: right;
-  transform: translateY(-155px);
+  width: 100%;
 }
 
 .menu p {
@@ -155,11 +149,17 @@ main {
 }
 
 dl {
-  display: inline;
+  display: block;
 }
 
 dd {
   margin: 0;
+}
+
+.about img {
+  width: 25%;
+  float: left;
+  transform: translate(120px, -80px);
 }
 
 .about h2 {
@@ -172,6 +172,18 @@ dd {
   -webkit-box-shadow: 0px 0px 8px 0px #000000;
   -moz-box-shadow: 0px 0px 8px 0px #000000;
   box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.about-one {
+  padding-left: .8em;
+  padding-right: .8em;
+  padding-bottom: .5em
+}
+
+.about-two {
+  padding-left: .8em;
+  padding-right: .8em;
+  padding-bottom: 5em;
 }
 
 .news h2 {
