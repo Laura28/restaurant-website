@@ -331,11 +331,15 @@ footer {
   }
 
   .logo-nav {
-    transform: translate(270px, -8px);
+    transform: translate(10px, -10px);
   }
 
   figure {
     padding-top: 4.7em;
+  }
+
+  figcaption {
+    transform: translate(10px, -280px);
   }
 
   ul {
@@ -343,11 +347,54 @@ footer {
   }
 
   nav a {
-    width: 100%;
-    padding: 2em;
+    padding: 1em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    font-size: 1.2rem;
+    margin-left: .25em;
   }
 
-  .about-link {
-    padding-right: 2.3em;
+  .intro p {
+    padding: 1.2em;
   }
+
+  .menu p {
+    padding: 1.2em;
+  }
+
+  .menu .sandwiches {
+    transform: translate(75px, -12px);
+  }
+
+  .menu .salads {
+    transform: translate(-90px, 3px);
+  }
+
+  .sandwich {
+    transform: translateX(75px);
+  }
+
+  .about-one {
+    padding-bottom: 0;
+  }
+
+  .about-two {
+    padding-top: .3em;
+    padding-bottom: 3em;
+  }
+
+  .about-one,
+  .about-two {
+    padding: 1.7em;
+    margin: 0;
+  }
+
+  .about img {
+    transform: translate(230px, -25px);
+  }
+
+  .contact img {
+    transform: translate(120px, 0px);
+  }
+
 }
