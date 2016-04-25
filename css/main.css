@@ -30,9 +30,9 @@ nav {
   top: 0;
   width: 100%;
   text-align: left;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
   background-color: rgba(1, 1, 1, 0.8);
   color: rgba(1, 1, 1, 0.8);
   z-index: 1000;
@@ -80,9 +80,9 @@ figcaption {
   position: absolute;
   color: #fff;
   font-size: .8rem;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
   margin-left: .7em;
 }
 
@@ -101,7 +101,7 @@ figcaption h1 {
 
 .img-flex {
   width: 100%;
-  display: block;
+  display: inline-block;
 }
 
 main {
@@ -124,9 +124,9 @@ main {
   padding: .2em;
   background-color: #333;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
 }
 
 .intro p {
@@ -156,9 +156,9 @@ main {
   background-color: #333;
   padding: .3em;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
 }
 
 .menu .sandwiches {
@@ -186,15 +186,15 @@ main {
   background-color: #333;
   padding: .3em;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
 }
 
 .about-one {
   padding-left: .8em;
   padding-right: .8em;
-  padding-bottom: .5em
+  padding-bottom: .5em;
 }
 
 .about-two {
@@ -211,9 +211,9 @@ main {
   background-color: #333;
   padding: .3em;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
 }
 
 .news p {
@@ -237,9 +237,9 @@ main {
   background-color: #333;
   padding: .3em;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
+  -webkit-box-shadow: 0 0 8px 0 #000;
+  -moz-box-shadow: 0 0 8px 0 #000;
+  box-shadow: 0 0 8px 0 #000;
 }
 
 .contact img {
@@ -262,9 +262,9 @@ footer {
   background-color: #396e27;
   color: #fff;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 8px 0px #326122;
-  -moz-box-shadow: 0px 0px 8px 0px #326122;
-  box-shadow: 0px 0px 8px 0px #326122;
+  -webkit-box-shadow: 0 0 8px 0 #326122;
+  -moz-box-shadow: 0 0 8px 0 #326122;
+  box-shadow: 0 0 8px 0 #326122;
   padding: 1em;
 }
 
@@ -292,7 +292,7 @@ footer {
   nav a {
     width: 20%;
     padding: .8em;
-    font-size: 1.4;
+    font-size: 1rem;
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -406,7 +406,7 @@ footer {
   }
 
   .contact img {
-    transform: translate(120px, 0px);
+    transform: translate(120px, 0);
   }
 
 }
@@ -416,6 +416,7 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+    background-color: #4c853a;
   }
 
   nav {
@@ -499,9 +500,9 @@ footer {
     color: #fff;
     font-weight: 800;
     font-size: 2rem;
-    -webkit-box-shadow: 0px 0px 8px 0px #000000;
-    -moz-box-shadow: 0px 0px 8px 0px #000000;
-    box-shadow: 0px 0px 8px 0px #000000;
+    -webkit-box-shadow: 0 0 8px 0 #000;
+    -moz-box-shadow: 0 0 8px 0 #000;
+    box-shadow: 0 0 8px 0 #000;
     transform: translate(550px, 30px);
   }
 
