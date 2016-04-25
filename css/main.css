@@ -418,6 +418,10 @@ footer {
     line-height: 1.5;
   }
 
+  nav {
+    height: 5em;
+  }
+
   .nav-smol {
     display: none;
   }
@@ -552,6 +556,32 @@ footer {
   .map-large {
     transform: translate(225px, 10px);
     padding-bottom: 1em;
+  }
+
+  nav li {
+    width: 80%;
+  }
+
+  .left-list {
+    transform: translateX(50px);
+  }
+
+  .left-list a {
+    padding-left: 3em;
+    padding-right: 2em;
+  }
+
+  .right-list {
+    transform: translate(25px, -63px);
+  }
+
+  .right-list a {
+    padding-right: 3em;
+    padding-left: 2em;
+  }
+
+  .logo-nav {
+    transform: translate(555px, -85px);
   }
 
 }
