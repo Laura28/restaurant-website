@@ -207,7 +207,7 @@ main {
   text-align: center;
   margin-bottom: .5em;
   margin-top: 0;
-  margin-left: o;
+  margin-left: 0;
   background-color: #333;
   padding: .3em;
   color: #fff;
@@ -473,13 +473,18 @@ footer {
     transform: translateX(115px);
   }
 
-  .menu-sandwiches {
-    transform: translateX(290px);
+  .sandwiches {
+    margin-left: 8em;
+  }
+
+  .salads {
+    margin-right: 8em;
   }
 
   .sandwich {
     width: 40%;
-    transform: translate(110px, 175px);
+    transform: translate(-38px, 50px);
+    padding-bottom: 1em;
   }
 
   .soup-caption {
@@ -493,7 +498,7 @@ footer {
     -webkit-box-shadow: 0px 0px 8px 0px #000000;
     -moz-box-shadow: 0px 0px 8px 0px #000000;
     box-shadow: 0px 0px 8px 0px #000000;
-    transform: translate(550px, 450px);
+    transform: translate(550px, 30px);
   }
 
   .about img {
@@ -505,6 +510,47 @@ footer {
   .contact img {
     width: 50%;
     transform: translate(230px, 10px);
+    padding-bottom: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+    background-color: #333;
+  }
+
+  body {
+    max-width: 60em;
+    transform: translateX(85px);
+  }
+
+  p {
+    transform: translateX(230px);
+  }
+
+  .sandwich {
+    transform: translate(15px, 200px);
+    padding-bottom: 1em;
+  }
+
+  .about img {
+    transform: translate(420px, -30px);
+  }
+
+  .soup-caption {
+    transform: translate(700px, 30px);
+  }
+
+  .contact img {
+    transform: translate(315px, 10px);
+  }
+
+  .map-large {
+    transform: translate(225px, 10px);
     padding-bottom: 1em;
   }
 
